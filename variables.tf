@@ -1,13 +1,13 @@
 variable "virginia-cidr" {
   type        = string
   description = "cidr virginia"
-  default     = "192.168.1.0/16"
+  default     = "10.0.0.0/24"
 }
 
 variable "ohio-cidr" {
   type        = string
   description = "cidr ohio"
-  default     = "192.168.2.0/16"
+  default     = "10.0.1.0/24"
 }
 
 variable "cidrs" {
